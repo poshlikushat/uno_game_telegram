@@ -18,7 +18,7 @@ class CardType(Enum):  # A class for keeping card types of cards
     WILD_DRAW_FOUR = auto()
 
 
-class Cards:
+class Card:
     def __init__(self, color, card_type, number=None):
         self.color = color
         self.card_type = card_type
